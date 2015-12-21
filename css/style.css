@@ -1,16 +1,21 @@
+* {
+    box-sizing: border-box;
+}
 .page-wrapper {
-    max-width: 900px;
+    max-width: 1000px;
+    min-width: 800px;
 }
 .logo {
-    width: 170px;
-    height: 170px;
+    width: 140px;
+    height: 140px;
+    margin: 0 0 10px -10px;
 }
 
 li .icon-30 {
     width: 30px;
     height: 30px;
     display: block;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .icon-vk {
@@ -30,4 +35,24 @@ ul.social-links li {
 .social-links {
     padding: 0;
     height: 30px;
+    margin-top: 10px;
+    
+}
+
+
+
+h1, h2, h3, h4 {
+    font-family: 'Marmelad', sans-serif;
+}
+
+.h1-top {
+    margin-left: 5px;
+}
+
+header .contacts {
+    padding: 25px 0 0 30px;
+}
+
+.middle-menu {
+    min-height: 40px;
 }
