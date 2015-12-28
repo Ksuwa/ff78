@@ -1,7 +1,12 @@
+/* Тебе не нужен * { box-sizing: border-box; }. Сноси и расскажешь мне почему он тебе не нужен? */
 * {
     box-sizing: border-box;
 }
 
+/*  - ставь пробелы для ">"
+    - делай пустую строку после "}";
+    - обьединяй одинаковые блоки кода в один;
+*/
 section>.page-wrapper {
     max-width: 1100px;
     min-width: 950px;
@@ -26,7 +31,7 @@ h1, h2, h3, h4 {
 h2 {
     font-size: 18px;
     font-weight: 500;
-    
+
 }
 
 .logo {
@@ -60,7 +65,7 @@ ul.social-links li {
     padding: 0;
     height: 30px;
     margin-top: 10px;
-    
+
 }
 
 header .contacts {
@@ -69,6 +74,7 @@ header .contacts {
     font-size: 16px;
 }
 
+/* - Пиши свойства в алфавитном порядке. Так, их будет проще мониторить. */
 .middle-menu ul li a{
     min-height: 40px;
     color: #9e515d;
@@ -83,7 +89,7 @@ header .contacts {
 
 .middle-menu {
     min-height: 40px;
-    font-size: 15px;  
+    font-size: 15px;
 }
 
 .foto-preview img {
@@ -92,6 +98,7 @@ header .contacts {
 
 }
 
+/* Зачем здесь bottom, left, right и z-index? */
 .recent-content {
     bottom:0;
     left: 0;
