@@ -1,26 +1,12 @@
-* {
-    box-sizing: border-box;
-}
-
-section>.page-wrapper {
-    max-width: 1100px;
-    min-width: 950px;
-}
-div>.page-wrapper {
-    max-width: 1100px;
-    min-width: 950px;
-}
-header>.page-wrapper {
-    max-width: 1100px;
-    min-width: 950px;
-}
-
-h1, h2, h3, h4 {
+body {
     font-family: 'Marmelad', sans-serif;
 }
 
+
+
 .h1-top {
     margin-left: 5px;
+    
 }
 
 h2 {
@@ -30,96 +16,103 @@ h2 {
 }
 
 .logo {
-    width: 140px;
     height: 140px;
     margin: 0 0 10px -10px;
+    width: 140px;
+    
 }
 
 li .icon-30 {
-    width: 30px;
-    height: 30px;
     display: block;
+    height: 30px;
     margin-right: 10px;
+    width: 30px;
 }
 
 .icon-vk {
     background-image: url(/img/vk2.png);
+    
 }
 
 .icon-instagram {
     background-image: url(/img/inst2.png);
-}
-
-ul.social-links li {
-    list-style-type: none;
-    float: left;
-    overflow: hidden;
-}
-
-.social-links {
-    padding: 0;
-    height: 30px;
-    margin-top: 10px;
     
 }
 
-header .contacts {
-    padding: 25px 0 0 30px;
-    font-family: 'Marmelad', sans-serif;
-    font-size: 16px;
+ul.social-links li {
+    float: left;
+    overflow: hidden;
+    
 }
 
-.middle-menu ul li a{
-    min-height: 40px;
+.social-links {
+    height: 30px;
+    margin-top: 10px;
+    padding: 0;
+      
+}
+
+header .contacts {
+    font-size: 16px;
+    padding: 25px 0 0 30px;
+    
+}
+
+.middle-menu ul li a {
     color: #9e515d;
-    padding: 10px 0;
     margin: 0;
-    color: #9e515d;
+    min-height: 40px;
+    padding: 10px 0;   
+    
 }
 
 .reasons {
     text-align: center;
+    
 }
 
 .middle-menu {
-    min-height: 40px;
-    font-size: 15px;  
+    font-size: 15px;
+    min-height: 40px;  
+    
 }
 
-.foto-preview img {
-    width:220px;
+.foto-preview {
     height: 200px;
-
+    width:220px;
+    
 }
 
 .recent-content {
-    bottom:0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    line-height: 18px;
-    padding: 1px 0 0 0;
     border: 0.1em solid #b9b9b9;
     border-top: 0;
     height: 65px;
+    line-height: 18px;
+    padding: 1px 0 0 0;
     width: 220px;
+    
 }
 
 .recent-content h2 {
     margin: 13px 0 0 0;
     text-align: center;
+    
 }
 
 .preview {
     margin: 30px 0;
     padding: 0;
+    
 }
 
 .recent-img img {
     width: 220px;
+    
 }
 
 .recent-img {
     min-height: 270px;
     position: relative;
+    
 }
+
