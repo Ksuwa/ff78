@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 950px) and (min-width:830px) {
    
     .contacts-phone {
     float: left;
@@ -7,12 +7,28 @@
     .contacts {
         overflow: hidden;
     }
- }
+    
+}
+
+
+@media screen and (max-width: 740px) {
+    .logo {
+        text-align: center;
+    }
+    .contacts-phone {
+    text-align: center;
+    }
+    .contacts-social-icon {
+    text-align: center;
+    width: 100%;
+}
+
+}
 
 
 body {
     font-family: 'Marmelad', sans-serif;
-}
+}    
 
 .page-wrapper {
     background-color: rgba(112, 112, 112, 0.1);
@@ -27,14 +43,19 @@ h2 {
 }
 
 /*header*/
-.h1-top {
-    margin-left: 4%;
+.caption-top {
+    display: block;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 20px 0 0 19px;
+    text-align: center;
     
 }
 
 .logo {
     height: 140px;
-    margin: 0 0 10px 10px;
+    margin: 5px 10px;
     width: 140px;
     
 }
@@ -48,7 +69,9 @@ header .contacts {
 .phone {
     color: black;
     font-size: 18px;
+    
 }
+
 
 .contacts-social-icon {
     text-align: center;
@@ -100,8 +123,7 @@ nav.middle-menu {
 /*foto-menu*/
 
 .preview {
-    margin: 40px 0 10px;
-    padding: 0;
+    margin: 40px 0 0;
     
 }
 
@@ -130,7 +152,7 @@ nav.middle-menu {
     text-align: center;
 }
 
-.h2-link:hover {
+.phone:hover, .h2-link:hover {
     color: #BA55B3;
     text-decoration: none;
     
@@ -141,9 +163,13 @@ nav.middle-menu {
 
 /*content*/
 
-.content {
-    padding-bottom: 40px;
+.content-reasons {
+    padding: 10px 25px 40px;
 
+}
+
+.reasons {
+    margin: 0 10px;
 }
 
 .h3-reasons {
@@ -151,10 +177,7 @@ nav.middle-menu {
     
 }
 
-.reasons{
-    margin: 10px 15px;
-    
-}
+
 
 .reasons li {
     font-size: 16px;
@@ -183,12 +206,47 @@ nav.middle-menu {
     font-weight: 600;
 }
 
-
+.social-icon-footer {
+    text-align: left; 
+}
 /*/footer*/
 
 
 
-.social-icon-footer {
-    text-align: left; 
+
+/*BYKET-NEVESTY*/
+.content {
+    padding:15px 30px 30px;
 }
 
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.img-byket-nevesty {
+    display: block;
+    max-width: 400px;
+    
+}
+
+.foto-4 {
+    float:left;
+    margin:10px 0 10px 0;
+}
+
+.foto-1 {
+    float: right;
+    margin:0 0 10px 10px;
+}
+
+.foto-3 {
+    float:right;
+    margin:10px 0 10px;
+    
+}
+
+.foto-2 {
+    float:left;
+    margin:10px 20px 10px 0;
+}
