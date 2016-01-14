@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 950px) and (min-width:830px) {
+@media screen and (max-width: 1000px) and (min-width:760px) {
    
     .contacts-phone {
     float: left;
@@ -7,14 +7,11 @@
     .contacts {
         overflow: hidden;
     }
-    
 }
 
 
-@media screen and (max-width: 740px) {
-    .logo {
-        text-align: center;
-    }
+@media screen and (max-width: 760px) {
+
     .contacts-phone {
     text-align: center;
     }
@@ -22,7 +19,7 @@
     text-align: center;
     width: 100%;
 }
-
+    
 }
 
 
@@ -68,8 +65,11 @@ header .contacts {
 
 .phone {
     color: black;
-    font-size: 18px;
     
+    
+}
+.phone-header {
+    font-size: 18px;
 }
 
 
@@ -225,7 +225,6 @@ h1 {
 }
 
 .img-byket-nevesty {
-    display: block;
     max-width: 400px;
     
 }
@@ -250,3 +249,4 @@ h1 {
     float:left;
     margin:10px 20px 10px 0;
 }
+/*/BYKET-NEVESTY*/
