@@ -112,7 +112,7 @@ ul.nav li#dropdown-services:hover ul#submenu-services {
 }
 
 #submenu-services li a {
-    padding: 5px 0 0 15px;
+    padding: 10px 0 0 15px;
     
 }
 
@@ -235,7 +235,7 @@ h1 {
 
 .custom-breadcrumb {
     background: none;
-    margin: 20px 0 0 0;
+    margin: 5px 0 0 0;
 }
 /*/PORTFOLIO*/
 
