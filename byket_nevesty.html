@@ -21,14 +21,13 @@
 <header class="container container-wrapper">
     <div class="row">
         <div class="col-md-2 col-sm-3">
-            <a class="logo-link" href="index.html"title="На Главную"><img class="logo" src="img/ff78-pink-logo.png" alt="логотип"></a>
+           <a class="logo-link" href="index.html" title="На Главную"><img class="logo img-responsive" src="img/ff78-pink-logo.png" alt="логотип"></a>
         </div>
         <div class="col-md-7 col-sm-9"><span class="caption-top"> Оформление свадеб и торжественных мероприятий</span></div>
         <div class="col-md-3 col-sm-9 contacts">
             <ul class="list-unstyled contacts-phone">
-                <!-- Сделать возможность позвонить по клику-->
-                <li><a class="phone phone-header" href="#">+7 (812) 921-10-55</a></li>
-                <li><a class="phone phone-header" href="#">+7 (911) 732-10-53</a></li>
+                <li><a class="phone phone-header" href="tel:+78129211055">+7 (812) 921-10-55</a></li>
+                <li><a class="phone phone-header" href="tel:+79117321053">+7 (911) 732-10-53</a></li>
             </ul>
             <ul class="list-unstyled contacts-social-icon">
                 <li><a class="icon-vk social-icon" href="http://instagram.com/flowers_fantasy78/" target="_blank" title="instagram" ></a></li>
@@ -40,13 +39,29 @@
 <!-- /header -->
 
 <!--  nav-->
-<nav class="middle-menu navbar navbar-default navbar-static-top">
-    <div class="container container-wrapper">
-        <ul class="nav nav-justified menu-justified">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Услуги</a></li>
+<a class="btn btn-navbar visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="glyphicon glyphicon-menu-hamburger">&nbsp;МЕНЮ</span>
+</a>
+
+<nav class="middle-menu navbar navbar-default navbar-static-top navbar-collapse collapse">   
+    <div class="container container-wrapper menu ">
+        <ul class="nav nav-justified menu-justified ">
+            <li><a href="index.html">Главная</a></li>
+                <!--DROPDOWN-->
+                <li class="dropdown" id="dropdown-services">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Услуги <span class="caret hidden-xs"></span></a>
+                    <ul id="submenu-services" class="dropdown-menu hidden-xs dropdown-submenu">
+                        <li><a href="byket_nevesty.html">Букет невесты</a></li>
+                        <li><a href="#">Оформление банкета</a></li>
+                        <li><a href="#">Оформление выездной регистрации</a></li>
+                        <li><a href="#">Накрытие и декор кенди бара</a></li>
+                        <li><a href="#">Полиграфия</a></li>
+                        <li><a href="#">Оформление шарами</a></li>
+                    </ul>
+                </li>
+                <!--DROPDOWN-->
             <li><a href="#">Прайс</a></li>
-            <li><a href="#">Портфолио</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
             <li><a href="#">Отзывы</a></li>
             <li><a href="#">Вопрос-ответ</a></li>
             <li><a href="#">Контакты</a></li>
@@ -57,9 +72,13 @@
 
 <!--content-->
 <section class="container container-wrapper content">
+    <ol class="breadcrumb custom-breadcrumb">
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Букет невесты</a></li>
+    </ol>
     <div class="row">
         <div class="col-sm-12">
-            <h1>Букет невесты</h1>
+            <h1 class="h1-portfolio">Букет невесты</h1>
     <img class="img-responsive" src="img/img_byket_nevesty/EpzMGXlxsBc.jpg" style="float: right; margin:0 0 10px 10px;">
             <p>Бесспорно, важная часть образа невесты - свадебный букет, и он  привлекает к себе не меньше внимания, чем платье или причёска.  Но свадебный букет – это не просто красивые цветы в руках невесты, но ещё и стильный аксессуар, который вместе с тем является символом любви и чистоты чувств. Самые популярные цветы в букете невесты - пионы и розы, герберы придадут букету яркость, фрезия - нежность,  множество других разных цветов сделают букет уникальным, стильным, идеально дополняющим Ваш образ! Для того, чтобы букет был необычным, используют цветы хлопка, ягоды или украшения. 
             Выбор букета невесты - это особый ритуал!  При выборе   цветов для букета  очень важно учитывать множество моментов.  Изначально следует узнать у флориста, какие сорта цветов будут цвести в сезон свадьбы. Затем стоит выбрать свадебную палитру и сами цветы. </p>
@@ -86,9 +105,8 @@
         </div>
         <div class="col-md-4 col-sm-4">
             <ul class="list-unstyled footer-phone">
-               <!-- Позвонить по клику -->
-                <li><a class="phone phone-footer" href="#">+7 (812) 921-10-55</a></li>
-                <li><a class="phone phone-footer" href="#">+7 (911) 732-10-53</a></li>
+                <li><a class="phone phone-footer" href="tel:+78129211055">+7 (812) 921-10-55</a></li>
+                <li><a class="phone phone-footer" href="tel:+79117321053">+7 (911) 732-10-53</a></li>
                </ul>            
         </div>
         <div class="col-md-3 col-sm-4">
@@ -99,9 +117,7 @@
         </div>
     </div>
 </footer>
-<!--/footer-->  
-
-<!--Вставить Джиквери-->  
+<!--    /footer-->  
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>

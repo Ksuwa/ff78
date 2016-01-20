@@ -16,6 +16,10 @@ h2 {
     
 }
 
+h1 {
+    margin: 0 0 20px;
+    
+}
 /*header*/
 .caption-top {
     display: block;
@@ -28,7 +32,7 @@ h2 {
 }
 
 .logo {
-    margin: 5px 10px;
+    margin: 5px 10px 15px;
     
 }
 
@@ -93,13 +97,28 @@ nav.middle-menu {
     font-size: 15px;
     margin: 0;
     min-height: 40px; 
+    
+ 
+}
 
+.menu {
+    padding: 0;
     
 }
 
 ul.nav li#dropdown-services:hover ul#submenu-services {
     display: block; 
    
+}
+
+#submenu-services li a {
+    padding: 5px 0 0 15px;
+    
+}
+
+.dropdown-submenu {
+    margin: 0;
+    
 }
 /*/nav*/
 
@@ -135,7 +154,7 @@ ul.nav li#dropdown-services:hover ul#submenu-services {
     text-align: center;
 }
 
-.phone:visited, .phone:link, .h2-link:link {
+.phone:visited, .phone:hover, .h2-link:hover {
     color: #BA55B3;
     text-decoration: none;
     
@@ -159,8 +178,6 @@ ul.nav li#dropdown-services:hover ul#submenu-services {
     text-align: center;
     
 }
-
-
 
 .reasons li {
     font-size: 16px;
@@ -208,9 +225,21 @@ h1 {
 }
 
 /*/BYKET-NEVESTY*/
-.menu {
-/*    background: none;*/
+
+
+/*PORTFOLIO*/
+.portfolio-preview {
+   padding: 30px 0 10px; 
 }
+
+
+.custom-breadcrumb {
+    background: none;
+    margin: 20px 0 0 0;
+}
+/*/PORTFOLIO*/
+
+
 
 /*@media*/
 @media screen and (max-width: 768px) {
@@ -223,13 +252,14 @@ h1 {
         width: 100%;
     }
     .logo {
-        height: 100px;
-        margin: 5px auto 0;
+        height: 50px;
+        margin: 5px;
+        float: left;
         
     }
     .caption-top {
-        font-size: 20px;
-        margin: 5px 0 0;
+        font-size: 15px;
+        margin: 10px 0 0;
     
     }
     .phone-header {
@@ -238,6 +268,9 @@ h1 {
     .h2-menu {
         text-align: left;
     }
+    
+    header .contacts {
+    padding-top: 20px;
 }
 
 
@@ -253,3 +286,11 @@ h1 {
 }
 
 /*/@media*/
+
+
+
+
+
+
+
+
