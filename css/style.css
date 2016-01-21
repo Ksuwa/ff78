@@ -270,7 +270,12 @@ h1 {
     }
     
     header .contacts {
-    padding-top: 20px;
+        padding-top: 20px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    
 }
 
 
