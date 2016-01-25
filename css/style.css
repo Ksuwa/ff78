@@ -1,7 +1,7 @@
 
-
 body {
     font-family: 'Marmelad', sans-serif;
+    
 }    
 
 .container-wrapper {
@@ -10,16 +10,20 @@ body {
 
 }
 
+h1 {
+    margin: 10px 0 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
 h2 {
     font-size: 18px;
     font-weight: 500;
     
 }
 
-h1 {
-    margin: 0 0 20px;
-    
-}
+
 /*header*/
 .caption-top {
     display: block;
@@ -44,21 +48,23 @@ header .contacts {
 
 .phone {
     color: black;
-    
-    
-}
-.phone-header {
-    font-size: 18px;
+      
 }
 
+.phone-header {
+    font-size: 18px;
+    
+}
 
 .contacts-social-icon {
     text-align: center;
     width: 85%;
+    
 }
 
 .contacts-social-icon li {  
     display: inline-block;
+    
 }
 
 .social-icon {
@@ -81,8 +87,8 @@ header .contacts {
     
 }
 
-
 /*/header*/
+
 /*nav*/
 .middle-menu ul li a {
     color: #9e515d;
@@ -98,7 +104,6 @@ nav.middle-menu {
     margin: 0;
     min-height: 40px; 
     
- 
 }
 
 .menu {
@@ -111,8 +116,8 @@ ul.nav li#dropdown-services:hover ul#submenu-services {
    
 }
 
-#submenu-services li a {
-    padding: 10px 0 0 15px;
+ul.dropdown-submenu li a {
+    padding: 10px 15px 0;
     
 }
 
@@ -123,17 +128,16 @@ ul.nav li#dropdown-services:hover ul#submenu-services {
 /*/nav*/
 
 /*foto-menu*/
-
 .preview {
     margin: 40px 0 0;
     
 }
 
 .foto-preview {
-    max-height: 250px;
-    max-width: 270px;
     border-radius: 7%;
     overflow: hidden;
+    max-height: 250px;
+    max-width: 270px;   
     
 }
 
@@ -164,6 +168,12 @@ ul.nav li#dropdown-services:hover ul#submenu-services {
 
 
 /*content*/
+.content {
+    font-size: 16px;
+    overflow: hidden;
+    padding: 0 20px 30px;
+    
+}
 
 .content-reasons {
     padding: 10px 25px 40px;
@@ -172,6 +182,7 @@ ul.nav li#dropdown-services:hover ul#submenu-services {
 
 .reasons {
     margin: 0 10px;
+    
 }
 
 .h3-reasons {
@@ -186,6 +197,21 @@ ul.nav li#dropdown-services:hover ul#submenu-services {
     
 }
 
+.photo-center {
+    margin:0 auto 20px;
+    
+}
+ .photo-down {
+    float: left;
+    margin: 10px 15px 10px 0; 
+     
+}
+
+.photo-right {
+    float: right; 
+    margin: 5px 0 10px 10px;
+    
+}
 /*/content*/
 
 /*footer*/
@@ -194,48 +220,48 @@ ul.nav li#dropdown-services:hover ul#submenu-services {
     border-top: 1px solid #9e515d;
     min-height: 50px;
     text-align: center;
-    padding-top:10px;
+    padding: 10px 30px 10px;
     
 }
 
 .social-links-footer {
     padding: 0 50px;
+    
 }
 
 .footer-capture {
     font-weight: 600;
+    
 }
 
 .social-icon-footer {
     text-align: left; 
+    
 }
 /*/footer*/
 
 
-
-
-/*BYKET-NEVESTY*/
-.content {
-    padding:15px 30px 30px;
-}
-
-h1 {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-/*/BYKET-NEVESTY*/
-
-
 /*PORTFOLIO*/
 .portfolio-preview {
-   padding: 30px 0 10px; 
+   padding: 0 0 10px;
+    
 }
 
+.portfolio-item {
+    padding-bottom: 20px;
+     
+}
 
 .custom-breadcrumb {
     background: none;
     margin: 5px 0 0 0;
+    font-size: 14px;
+    
+}
+
+.portfolio-mini-photo {
+    max-height: 180px;
+    
 }
 /*/PORTFOLIO*/
 
@@ -245,37 +271,69 @@ h1 {
 @media screen and (max-width: 768px) {
 
     .contacts-phone {
+        margin: 10px 0;
         text-align: center;
+        
     }
     .contacts-social-icon {
         text-align: center;
         width: 100%;
     }
     .logo {
-        height: 50px;
-        margin: 5px;
-        float: left;
+        height: 90px;
+        margin: 20px auto; 
         
     }
     .caption-top {
-        font-size: 15px;
+        font-size: 22px;
         margin: 10px 0 0;
     
     }
     .phone-header {
         font-size: 22px;
-    }
-    .h2-menu {
-        text-align: left;
+        
     }
     
-    header .contacts {
-        padding-top: 20px;
-    }
     h1 {
         font-size: 25px;
+        
     }
-    
+    .foto-preview {
+        margin: 0 auto;
+        
+    }
+    .photo-down {
+        clear: both; 
+        
+    }
+    .portfolio-item {
+        margin: 0 auto 20px;
+        
+    }
+/*
+    .photo-right {
+        float: none;
+        margin: 0 0 10px;
+        
+    }
+*/
+     header.header .contacts {
+        padding: 10px 0;
+         
+    }
+    .contacts-phone {
+        clear: both;
+        
+    }
+    .img-portfolio {
+        margin: 0 auto;
+        
+    }
+    h2 {
+        text-align: center;
+        
+    }
+
 }
 
 
@@ -283,14 +341,40 @@ h1 {
    
     .contacts-phone {
         float: left;
+        padding-left: 30px;
+        
     }
     .contacts {
         overflow: hidden;
+        
+    }
+    .caption-top {
+        font-size: 27px;
+        margin: 10px 0 0;
+    
+    }
+     .portfolio-item {
+        margin: 0 auto 20px;
+         
     }
     
-}
+    .contacts-social-icon {
+        margin-top: 15px;
+        
+    }
+    header .contacts {
+        padding: 10px 0;
+        
+    }
 
 /*/@media*/
+
+
+
+
+
+
+
 
 
 
