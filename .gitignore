@@ -13,6 +13,8 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.sass-cache
+*.map
 
 # Windows shortcuts
 *.lnk
