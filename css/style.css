@@ -6,8 +6,15 @@ body {
 
 .container-wrapper {
     background-color: rgba(112, 112, 112, 0.1);
+    margin: 0 auto;
     max-width: 950px;
+    
 
+}
+
+.container {
+    max-width: 950px;
+    padding: 0;
 }
 
 h1 {
@@ -169,7 +176,7 @@ ul.dropdown-submenu li a {
 .content {
     font-size: 16px;
     overflow: hidden;
-    padding: 0 20px 30px;
+    padding: 0 30px 30px;
     
 }
 
@@ -210,12 +217,17 @@ ul.dropdown-submenu li a {
     margin: 5px 0 10px 10px;
     
 }
+.photo-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+}
 /*/content*/
 
 /*footer*/
 .footer-block {
     background-color: rgba(112, 112, 112, 0.2);
     border-top: 1px solid #9e515d;
+    margin-top: 20px;
     min-height: 50px;
     text-align: center;
     padding: 10px 30px 10px;
@@ -252,7 +264,7 @@ ul.dropdown-submenu li a {
 
 .custom-breadcrumb {
     background: none;
-    margin: 5px 0 0 0;
+    margin: 5px 0 0 20px;
     font-size: 14px;
     
 }
@@ -261,6 +273,7 @@ ul.dropdown-submenu li a {
     max-height: 180px;
     
 }
+
 /*/PORTFOLIO*/
 
 
@@ -300,21 +313,16 @@ ul.dropdown-submenu li a {
         margin: 0 auto;
         
     }
-    .photo-down {
-        clear: both; 
+    .content .photo-down {
+        float: none;
+        margin: 10px auto;
         
     }
     .portfolio-item {
         margin: 0 auto 20px;
         
     }
-/*
-    .photo-right {
-        float: none;
-        margin: 0 0 10px;
-        
-    }
-*/
+    
      header.header .contacts {
         padding: 10px 0;
          
@@ -366,18 +374,5 @@ ul.dropdown-submenu li a {
     }
 
 /*/@media*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
