@@ -8,13 +8,12 @@ body {
     background-color: rgba(112, 112, 112, 0.1);
     margin: 0 auto;
     max-width: 950px;
-    
 
 }
 
 .container {
     max-width: 950px;
-    padding: 0;
+    
 }
 
 h1 {
@@ -187,6 +186,7 @@ ul.dropdown-submenu li a {
 
 .reasons {
     margin: 0 10px;
+    padding-bottom: 30px;
     
 }
 
@@ -203,12 +203,12 @@ ul.dropdown-submenu li a {
 }
 
 .photo-center {
-    margin:0 auto 20px;
+    margin: 5px auto 20px;
     
 }
  .photo-down {
     float: left;
-    margin: 10px 15px 10px 0; 
+    margin: 10px 5px 0 0; 
      
 }
 
@@ -220,14 +220,22 @@ ul.dropdown-submenu li a {
 .photo-left {
     float: left;
     margin: 10px 20px 10px 0;
+    
 }
+
+
+.photo-down-right {
+    float: left;
+    margin: 10px 0 0 40px;
+    
+}
+
 /*/content*/
 
 /*footer*/
 .footer-block {
     background-color: rgba(112, 112, 112, 0.2);
     border-top: 1px solid #9e515d;
-    margin-top: 20px;
     min-height: 50px;
     text-align: center;
     padding: 10px 30px 10px;
@@ -313,9 +321,9 @@ ul.dropdown-submenu li a {
         margin: 0 auto;
         
     }
-    .content .photo-down {
+    .content .photo-down, .photo-down-right {
         float: none;
-        margin: 10px auto;
+        margin: 20px auto;
         
     }
     .portfolio-item {
