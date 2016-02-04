@@ -60,13 +60,7 @@ header .contacts {
     
 }
 
-.contacts-social-icon {
-    text-align: center;
-    width: 85%;
-    
-}
-
-.contacts-social-icon li {  
+.contacts-social-icon {  
     display: inline-block;
     
 }
@@ -75,9 +69,9 @@ header .contacts {
     background-image: url(../img/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
-    height: 30px;
-    margin-right: 10px;
-    width: 30px;
+    height: 25px;
+    margin-bottom: 3px;
+    width: 25px;
     
 }
 
@@ -87,9 +81,58 @@ header .contacts {
 }
 
 .icon-instagram {
-    background-position: -30px 0;
+    background-position: -25px 0;
     
 }
+
+.callback {
+	background:linear-gradient(to bottom, #3379b7 5%, #5ba6cf 100%);
+	background-color:#3379b7;
+	border-radius:14px;
+	box-shadow: 0px 10px 14px -7px #276873;
+	color:#ffffff;
+    display: inline-block;
+	font-size:14px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3379b7', endColorstr='#5ba6cf',GradientType=0);
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+    margin-right: 15px;
+    max-height: 50px;
+    max-width: 140px;
+	padding:0 10px;
+    text-transform: uppercase;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    vertical-align: top;
+}
+
+.callback:hover {
+	background:linear-gradient(to bottom, #5ba6cf 5%, #3379b7 100%);
+	background-color:#5ba6cf;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ba6cf', endColorstr='#3379b7',GradientType=0);
+    text-decoration: none;
+ 
+}
+.callback:visited {
+    color: #fff;
+}
+
+.callback i  {
+    display: inline-block;
+    font-size: 45px;
+    line-height: 50px;
+    margin: 0 10px 0 0;
+}
+
+
+.callback span  {
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    vertical-align: top;
+    width: 68px;
+}
+
 
 /*/header*/
 
@@ -128,6 +171,9 @@ ul.dropdown-submenu li a {
 .dropdown-submenu {
     margin: 0;
     
+}
+.btn-custom {
+    background-color: #F1D3F7;
 }
 /*/nav*/
 
@@ -256,6 +302,10 @@ ul.dropdown-submenu li a {
     text-align: left; 
     
 }
+.social-icon-footer li {
+     display: inline-block;
+    margin: 5px;
+}
 /*/footer*/
 
 
@@ -272,7 +322,7 @@ ul.dropdown-submenu li a {
 
 .custom-breadcrumb {
     background: none;
-    margin: 5px 0 0 20px;
+    margin: 10px 0 0 20px;
     font-size: 14px;
     
 }
@@ -287,17 +337,14 @@ ul.dropdown-submenu li a {
 
 
 /*@media*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     .contacts-phone {
         margin: 10px 0;
         text-align: center;
         
     }
-    .contacts-social-icon {
-        text-align: center;
-        width: 100%;
-    }
+
     .logo {
         height: 90px;
         margin: 20px auto; 
@@ -317,7 +364,7 @@ ul.dropdown-submenu li a {
         font-size: 25px;
         
     }
-    .foto-preview {
+    .foto-preview, .img-portfolio {
         margin: 0 auto;
         
     }
@@ -339,13 +386,23 @@ ul.dropdown-submenu li a {
         clear: both;
         
     }
-    .img-portfolio {
-        margin: 0 auto;
-        
-    }
+    
     h2 {
         text-align: center;
         
+    }
+    .button-social {
+        clear: both;
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 170px;
+    }
+    .callback {
+        margin: 0 auto 10px;
+        
+    }
+    .contacts-social-icon  {
+        margin-left: 20px;
     }
 
 }
@@ -355,11 +412,12 @@ ul.dropdown-submenu li a {
    
     .contacts-phone {
         float: left;
-        padding-left: 30px;
         
     }
-    .contacts {
+    
+    header .contacts {
         overflow: hidden;
+        padding: 20px 0 5px 80px ;
         
     }
     .caption-top {
@@ -367,19 +425,19 @@ ul.dropdown-submenu li a {
         margin: 10px 0 0;
     
     }
+    .callback {
+        margin: 0 40px;
+    }
+    
+     .contacts-social-icon li {
+         margin-right: 5px;
+     }
+    
      .portfolio-item {
         margin: 0 auto 20px;
          
     }
     
-    .contacts-social-icon {
-        margin-top: 15px;
-        
-    }
-    header .contacts {
-        padding: 10px 0;
-        
-    }
 
 /*/@media*/
 
