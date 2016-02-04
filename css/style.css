@@ -1,19 +1,16 @@
 
 body {
     font-family: 'Marmelad', sans-serif;
-    
 }    
 
 .container-wrapper {
     background-color: rgba(112, 112, 112, 0.1);
     margin: 0 auto;
     max-width: 950px;
-
 }
 
 .container {
-    max-width: 950px;
-    
+    max-width: 950px;    
 }
 
 h1 {
@@ -23,10 +20,8 @@ h1 {
 
 h2 {
     font-size: 18px;
-    font-weight: 500;
-    
+    font-weight: 500;   
 }
-
 
 /*header*/
 .caption-top {
@@ -35,34 +30,28 @@ h2 {
     font-weight: 500;
     line-height: 1.1;
     margin: 20px 0 0 19px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .logo {
-    margin: 10px 10px 0;
-    
+    margin: 10px 10px 0;   
 }
 
 header .contacts {
     font-size: 16px;
-    padding: 25px 0 0 30px;
-    
+    padding: 25px 0 0 30px;  
 }
 
 .phone {
-    color: black;
-      
+    color: black;     
 }
 
 .phone-header {
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
 
 .contacts-social-icon {  
-    display: inline-block;
-    
+    display: inline-block;  
 }
 
 .social-icon {
@@ -71,48 +60,41 @@ header .contacts {
     display: block;
     height: 25px;
     margin-bottom: 3px;
-    width: 25px;
-    
+    width: 25px;    
 }
 
 .icon-vk {
-    background-position: 0 0;
-    
+    background-position: 0 0;   
 }
 
 .icon-instagram {
-    background-position: -25px 0;
-    
+    background-position: -25px 0;  
 }
 
 .callback {
-	background:linear-gradient(to bottom, #3379b7 5%, #5ba6cf 100%);
-	background-color:#3379b7;
-	border-radius:14px;
-	box-shadow: 0px 10px 14px -7px #276873;
-	color:#ffffff;
+    background: linear-gradient(to bottom, #3379b7 5%, #5ba6cf 100%);
+    background-color: #3379b7;
+    border-radius: 14px;
+    box-shadow: 0 10px 14px -7px #276873;
+    color: #ffffff;
     display: inline-block;
-	font-size:14px;
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3379b7', endColorstr='#5ba6cf',GradientType=0);
-	-moz-border-radius:14px;
-	-webkit-border-radius:14px;
+    font-size: 14px;
     margin-right: 15px;
     max-height: 50px;
     max-width: 140px;
-	padding:0 10px;
+    padding: 0 10px;
     text-transform: uppercase;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
+    text-decoration: none;
+    text-shadow: 0 1px 0px #3d768a;
     vertical-align: top;
 }
 
 .callback:hover {
-	background:linear-gradient(to bottom, #5ba6cf 5%, #3379b7 100%);
-	background-color:#5ba6cf;
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ba6cf', endColorstr='#3379b7',GradientType=0);
+    background:linear-gradient(to bottom, #5ba6cf 5%, #3379b7 100%);
+    background-color:#5ba6cf;
     text-decoration: none;
- 
 }
+
 .callback:visited {
     color: #fff;
 }
@@ -124,7 +106,6 @@ header .contacts {
     margin: 0 10px 0 0;
 }
 
-
 .callback span  {
     display: inline-block;
     text-align: center;
@@ -132,8 +113,6 @@ header .contacts {
     vertical-align: top;
     width: 68px;
 }
-
-
 /*/header*/
 
 /*nav*/
@@ -141,36 +120,30 @@ header .contacts {
     color: #9e515d;
     margin: 0;
     min-height: 40px;
-    padding: 10px 0;   
-    
+    padding: 10px 0;       
 }
 
 nav.middle-menu {
     background-color: #F1D3F7;
     font-size: 15px;
     margin: 0;
-    min-height: 40px; 
-    
+    min-height: 40px;     
 }
 
 .menu {
-    padding: 0;
-    
+    padding: 0;    
 }
 
-ul.nav li#dropdown-services:hover ul#submenu-services {
-    display: block; 
-   
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 ul.dropdown-submenu li a {
-    padding: 10px 15px 0;
-    
+    padding: 10px 15px 0;   
 }
 
 .dropdown-submenu {
-    margin: 0;
-    
+    margin: 0;  
 }
 .btn-custom {
     background-color: #F1D3F7;
@@ -179,28 +152,24 @@ ul.dropdown-submenu li a {
 
 /*foto-menu*/
 .preview {
-    margin: 40px 0 0;
-    
+    margin: 40px 0 0;  
 }
 
 .foto-preview {
     border-radius: 7%;
     overflow: hidden;
     max-height: 250px;
-    max-width: 270px;   
-    
+    max-width: 270px;    
 }
 
 .recent-content {
     min-height: 40px;
     line-height: 18px;
-    padding: 1px 0 0 0;
-    
+    padding: 1px 0 0 0;  
 }
 
 .recent-img {
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;  
 }
 
 .h2-menu {
@@ -210,8 +179,7 @@ ul.dropdown-submenu li a {
 
 .phone:visited, .phone:hover, .h2-link:hover {
     color: #BA55B3;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 /*/foto-menu*/
 
@@ -221,61 +189,51 @@ ul.dropdown-submenu li a {
 .content {
     font-size: 16px;
     overflow: hidden;
-    padding: 0 30px 30px;
-    
+    padding: 0 30px 30px;   
 }
 
 .content-reasons {
     padding: 10px 25px 40px;
-
 }
 
 .reasons {
     margin: 0 10px;
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px;   
 }
 
 .h3-reasons {
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .reasons li {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    padding: 5px 0; 
-    
+    padding: 5px 0;    
 }
 
 .photo-center {
     margin: 5px auto 20px;
     
 }
- .photo-down {
+
+.photo-down {
     float: left;
-    margin: 10px 5px 0 0; 
-     
+    margin: 10px 5px 0 0;     
 }
 
 .photo-right {
     float: right; 
-    margin: 5px 0 10px 10px;
-    
+    margin: 5px 0 10px 10px;   
 }
 .photo-left {
     float: left;
-    margin: 10px 20px 10px 0;
-    
+    margin: 10px 20px 10px 0;   
 }
-
 
 .photo-down-right {
     float: left;
-    margin: 10px 0 0 40px;
-    
+    margin: 10px 0 0 40px;  
 }
-
 /*/content*/
 
 /*footer*/
@@ -285,23 +243,20 @@ ul.dropdown-submenu li a {
     min-height: 50px;
     text-align: center;
     padding: 10px 30px 10px;
-    
 }
 
 .social-links-footer {
     padding: 0 50px;
-    
 }
 
 .footer-capture {
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
 
 .social-icon-footer {
-    text-align: left; 
-    
+    text-align: left;   
 }
+
 .social-icon-footer li {
      display: inline-block;
     margin: 5px;
@@ -311,25 +266,21 @@ ul.dropdown-submenu li a {
 
 /*PORTFOLIO*/
 .portfolio-preview {
-   padding: 0 0 10px;
-    
+   padding: 0 0 10px;    
 }
 
 .portfolio-item {
-    padding-bottom: 20px;
-     
+    padding-bottom: 20px;    
 }
 
 .custom-breadcrumb {
     background: none;
     margin: 10px 0 0 20px;
-    font-size: 14px;
-    
+    font-size: 14px;  
 }
 
 .portfolio-mini-photo {
-    max-height: 180px;
-    
+    max-height: 180px;    
 }
 
 /*/PORTFOLIO*/
@@ -341,55 +292,44 @@ ul.dropdown-submenu li a {
 
     .contacts-phone {
         margin: 10px 0;
-        text-align: center;
-        
+        text-align: center;       
     }
 
     .logo {
         height: 90px;
-        margin: 20px auto; 
-        
+        margin: 20px auto;      
     }
     .caption-top {
         font-size: 22px;
-        margin: 10px 0 0;
-    
+        margin: 10px 0 0;  
     }
     .phone-header {
-        font-size: 22px;
-        
+        font-size: 22px;       
     }
     
     h1 {
-        font-size: 25px;
-        
+        font-size: 25px;      
     }
     .foto-preview, .img-portfolio {
-        margin: 0 auto;
-        
+        margin: 0 auto;      
     }
     .content .photo-down, .photo-down-right {
         float: none;
-        margin: 20px auto;
-        
+        margin: 20px auto;       
     }
     .portfolio-item {
-        margin: 0 auto 20px;
-        
+        margin: 0 auto 20px;        
     }
     
      header.header .contacts {
-        padding: 10px 0;
-         
+        padding: 10px 0;        
     }
     .contacts-phone {
-        clear: both;
-        
+        clear: both;       
     }
     
     h2 {
-        text-align: center;
-        
+        text-align: center;      
     }
     .button-social {
         clear: both;
@@ -398,47 +338,37 @@ ul.dropdown-submenu li a {
         max-width: 170px;
     }
     .callback {
-        margin: 0 auto 10px;
-        
+        margin: 0 auto 10px;     
     }
     .contacts-social-icon  {
         margin-left: 20px;
     }
-
 }
 
 
 @media screen and (max-width: 1024px) and (min-width:768px) {
    
     .contacts-phone {
-        float: left;
-        
+        float: left;        
     }
-    
     header .contacts {
         overflow: hidden;
-        padding: 20px 0 5px 80px ;
-        
+        padding: 20px 0 5px 80px ;        
     }
     .caption-top {
         font-size: 27px;
-        margin: 10px 0 0;
-    
+        margin: 10px 0 0;    
     }
     .callback {
         margin: 0 40px;
-    }
-    
+    }   
      .contacts-social-icon li {
          margin-right: 5px;
-     }
-    
+     }   
      .portfolio-item {
-        margin: 0 auto 20px;
-         
+        margin: 0 auto 20px;     
     }
-    
-
+}
 /*/@media*/
 
 
