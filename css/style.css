@@ -283,6 +283,28 @@ max-width: 270px;
 }
 /*/PORTFOLIO*/
 
+/*PRICE*/
+.h2-price {
+	font-weight: 600;
+	text-align: center;
+}
+
+.list-price {
+	border-bottom: 1px solid #ab53b0;
+	text-align: left;
+	padding: 15px 0;
+}
+
+.list-price li{
+	padding-bottom: 10px;	
+}
+
+.list-price i {
+	color: rgba(171, 83, 176, 0.7);
+}
+/*PRICE*/
+
+
 /*@media*/
 @media screen and (max-width: 767px) {
 
@@ -365,24 +387,3 @@ max-width: 270px;
 	}
 }
 /*/@media*/
-
-
-
-.h2-price {
-	font-weight: 600;
-	text-align: center;
-}
-
-.list-price {
-	text-align: left;
-	border-bottom: 1px solid #ab53b0;
-	padding: 15px 0 15px 0;
-}
-.list-price li{
-	padding-bottom: 10px;
-	
-}
-
-.list-price i {
-	color: rgba(171, 83, 176, 0.7);
-}
