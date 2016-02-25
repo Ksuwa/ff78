@@ -1,0 +1,15 @@
+mixin breadcrumb(text)
+	ol.breadcrumb.custom-breadcrumb
+		li
+			a(href='index.html') Главная
+		li=text
+	h1.h1-port=text
+
+mixin breadcrumbPortfolio(text2)
+	ol.breadcrumb.custom-breadcrumb
+		li
+			a(href='index.html') Главная
+		li
+			a(href='portfolio.html') Портфолио
+		li=text2
+	h1.h1-port=text2

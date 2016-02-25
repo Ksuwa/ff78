@@ -159,8 +159,9 @@ ul.dropdown-submenu li a {
 .foto-preview {
 	border-radius: 7%;
 	overflow: hidden;
+	margin: 0 auto;
 	max-height: 250px;
-max-width: 270px;
+	max-width: 270px;
 }
 
 .recent-content {
