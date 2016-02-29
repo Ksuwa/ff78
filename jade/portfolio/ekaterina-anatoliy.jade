@@ -1,0 +1,19 @@
+extend ../_template
+
+block title
+	title Екатерина и Анатолий
+block prepend headLinks
+	link(href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', rel='stylesheet')
+block content
+	+breadcrumbPortfolio('Екатерина и Анатолий')
+	.content
+		.row.portfolio-preview
+			+portfolioItem('../../img/portfolio/main/ekaterina-anatoliy/1.jpg', '../../img/portfolio/mini/ekaterina-anatoliy/1.jpg')
+			+portfolioItem('../../img/portfolio/main/ekaterina-anatoliy/2.jpg', '../../img/portfolio/mini/ekaterina-anatoliy/2.jpg')
+			+portfolioItem('../../img/portfolio/main/ekaterina-anatoliy/3.jpg', '../../img/portfolio/mini/ekaterina-anatoliy/3.jpg')
+			+portfolioItem('../../img/portfolio/main/ekaterina-anatoliy/4.jpg', '../../img/portfolio/mini/ekaterina-anatoliy/4.jpg')
+			+portfolioItem('../../img/portfolio/main/ekaterina-anatoliy/5.jpg', '../../img/portfolio/mini/ekaterina-anatoliy/5.jpg')
+			+portfolioItem('../../img/portfolio/main/ekaterina-anatoliy/6.jpg', '../../img/portfolio/mini/ekaterina-anatoliy/6.jpg')
+block append script
+	script(src='../../js/fancybox.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')

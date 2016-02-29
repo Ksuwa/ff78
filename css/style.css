@@ -373,14 +373,15 @@ ul.dropdown-submenu li a {
 	}
 }
 
-@media screen and (max-width: 1024px) and (min-width:768px) {
+@media screen and (max-width: 991px) and (min-width:767px) {
 
 	.contacts-phone {
 		float: left;
 	}
+
 	header .contacts {
 		overflow: hidden;
-		padding: 20px 0 5px 80px ;
+				padding: 20px 0 5px 80px;
 	}
 	.caption-top {
 		font-size: 27px;
@@ -389,10 +390,10 @@ ul.dropdown-submenu li a {
 	.callback {
 		margin: 0 40px;
 	}
-	 .contacts-social-icon li {
-		 margin-right: 5px;
-	 }
-	 .portfolio-item {
+	.contacts-social-icon li {
+		margin-right: 5px;
+	}
+	.portfolio-item {
 		margin: 0 auto 20px;
 	}
 }

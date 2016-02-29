@@ -1,0 +1,25 @@
+extend ../_template
+
+block title
+	title Букет и венок на голову для Кристины
+block prepend headLinks
+	link(href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', rel='stylesheet')
+block content
+	+breadcrumbPortfolio('Букет и венок на голову для Кристины')
+	.content
+		.row.portfolio-preview
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/1.jpg', '../../img/portfolio/mini/byket-kristiny/1.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/2.jpg', '../../img/portfolio/mini/byket-kristiny/2.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/3.jpg', '../../img/portfolio/mini/byket-kristiny/3.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/4.jpg', '../../img/portfolio/mini/byket-kristiny/4.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/5.jpg', '../../img/portfolio/mini/byket-kristiny/5.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/6.jpg', '../../img/portfolio/mini/byket-kristiny/6.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/7.jpg', '../../img/portfolio/mini/byket-kristiny/7.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/8.jpg', '../../img/portfolio/mini/byket-kristiny/8.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/9.jpg', '../../img/portfolio/mini/byket-kristiny/9.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/10.jpg', '../../img/portfolio/mini/byket-kristiny/10.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/11.jpg', '../../img/portfolio/mini/byket-kristiny/11.jpg')
+			+portfolioItem('../../img/portfolio/main/byket-kristiny/12.jpg', '../../img/portfolio/mini/byket-kristiny/12.jpg')
+block append script
+	script(src='../../js/fancybox.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')

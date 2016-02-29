@@ -1,4 +1,4 @@
-extend template
+extend _template
 
 block title
 	title Портфолио
@@ -6,88 +6,21 @@ block content
 	+breadcrumb('Портфолио')
 	.content
 		.row.portfolio-preview
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='portfolio-item.html')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/anna-leonid/1.jpg')
-				h2
-					a.h2-link(href='portfolio-item.html') Анна и Леонид
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/byket-kristiny/1.jpg')
-				h2
-					a.h2-link(href='#') Букет и венок на голову для Кристины
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/klassik-beliy-cvet/02222.jpg')
-				h2
-					a.h2-link(href='#') В классическом белом цвете
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/morskoy-stil/unnamed_52.jpg')
-				h2
-					a.h2-link(href='#') В морском стиле
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/negno-rozoviy/55555.jpg')
-				h2
-					a.h2-link(href='#') В нежно-розовом цвете
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/negno-fioletoviy/1.jpg')
-				h2
-					a.h2-link(href='#') В нежно-фиолетовом цвете
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/tiffany/1.jpg')
-				h2
-					a.h2-link(href='#') В стиле тифани
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/persikoviy/unnamed_7.jpg')
-				h2
-					a.h2-link(href='#') В персиковом цвете
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/victoriya-mark/1.jpg')
-				h2
-					a.h2-link(href='#') Виктория и Марк
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/victoriya-maksim/1.jpg')
-				h2
-					a.h2-link(href='#') Виктория и Максим
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/ekaterina-anatoliy/1.jpg')
-				h2
-					a.h2-link(href='#') Екатерина и Анатолий
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/promoakciya-dior/1.jpg')
-				h2
-					a.h2-link(href='#') Промоакция от Dior
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/ksusha-andrey/20.jpg')
-				h2
-					a.h2-link(href='#') Ксюша и Андрей
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/fioletoviy-glamur/unnamed_3.jpg')
-				h2
-					a.h2-link(href='#') Фиолетовый гламур
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/staraya-melnica/4.jpg')
-				h2
-					a.h2-link(href='#') Фотосессия в Старой мельнице
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/nataliya-roman/90.jpg')
-				h2
-					a.h2-link(href='#') Классическая свадьба Натальи и Романа
-			.col-md-4.col-sm-6.portfolio-item
-				a(href='#')
-					img.img-responsive.img-portfolio(src='img/portfolio/mini/katerina-marat/4.jpg')
-				h2
-					a.h2-link(href='#') Свадьба Катерины и Марата в цвете марсала
+			+portfolioPage ('portfolio/anna-leonid.html', 'img/portfolio/mini/anna-leonid/1.jpg', 'Анна и Леонид')
+			+portfolioPage ('portfolio/byket-kristiny.html', 'img/portfolio/mini/byket-kristiny/1.jpg', 'Букет и венок на голову для Кристины')
+			+portfolioPage ('portfolio/klassik-beliy-cvet.html', 'img/portfolio/mini/klassik-beliy-cvet/1.jpg', 'В классическом белом цвете')
+			+portfolioPage ('portfolio/morskoy-stil.html', 'img/portfolio/mini/morskoy-stil/2.jpg', 'В морском стиле')
+			+portfolioPage ('portfolio/negno-rozoviy.html', 'img/portfolio/mini/negno-rozoviy/2.jpg', 'В нежно-розовом цвете')
+			+portfolioPage ('portfolio/negno-fioletoviy.html', 'img/portfolio/mini/negno-fioletoviy/1.jpg', 'В нежно-фиолетовом цвете')
+			+portfolioPage ('portfolio/tiffany.html', 'img/portfolio/mini/tiffany/1.jpg', 'В стиле тифани')
+			+portfolioPage ('portfolio/persikoviy.html', 'img/portfolio/mini/persikoviy/1.jpg', 'В персиковом цвете')
+			+portfolioPage ('portfolio/victoriya-mark.html', 'img/portfolio/mini/victoriya-mark/2.jpg', 'Виктория и Марк')
+			+portfolioPage ('portfolio/victoriya-maksim.html', 'img/portfolio/mini/victoriya-maksim/1.jpg', 'Виктория и Максим')
+			+portfolioPage ('portfolio/ekaterina-anatoliy.html', 'img/portfolio/mini/ekaterina-anatoliy/1.jpg', 'Екатерина и Анатолий')
+			+portfolioPage ('portfolio/promoakciya-dior.html', 'img/portfolio/mini/promoakciya-dior/1.jpg', 'Промоакция от Dior')
+			+portfolioPage ('portfolio/ksusha-andrey.html', 'img/portfolio/mini/ksusha-andrey/2.jpg', 'Ксюша и Андрей')
+			+portfolioPage ('portfolio/fioletoviy-glamur.html', 'img/portfolio/mini/fioletoviy-glamur/1.jpg', 'Фиолетовый гламур')
+			+portfolioPage ('portfolio/staraya-melnica.html', 'img/portfolio/mini/staraya-melnica/4.jpg', 'Фотосессия в Старой мельнице')
+			+portfolioPage ('portfolio/nataliya-roman.html', 'img/portfolio/mini/nataliya-roman/1.jpg', 'Классическая свадьба Натальи и Романа')
+			+portfolioPage ('portfolio/katerina-marat.html', 'img/portfolio/mini/katerina-marat/4.jpg', 'Свадьба Катерины и Марата в цвете марсала')
+

@@ -1,0 +1,19 @@
+extend ../_template
+
+block title
+	title Фотосессия в Старой мельнице
+block prepend headLinks
+	link(href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', rel='stylesheet')
+block content
+	+breadcrumbPortfolio('Фотосессия в Старой мельнице')
+	.content
+		.row.portfolio-preview
+			+portfolioItem('../../img/portfolio/main/staraya-melnica/1.jpg', '../../img/portfolio/mini/staraya-melnica/1.jpg')
+			+portfolioItem('../../img/portfolio/main/staraya-melnica/2.jpg', '../../img/portfolio/mini/staraya-melnica/2.jpg')
+			+portfolioItem('../../img/portfolio/main/staraya-melnica/3.jpg', '../../img/portfolio/mini/staraya-melnica/3.jpg')
+			+portfolioItem('../../img/portfolio/main/staraya-melnica/4.jpg', '../../img/portfolio/mini/staraya-melnica/4.jpg')
+			+portfolioItem('../../img/portfolio/main/staraya-melnica/5.jpg', '../../img/portfolio/mini/staraya-melnica/5.jpg')
+			+portfolioItem('../../img/portfolio/main/staraya-melnica/6.jpg', '../../img/portfolio/mini/staraya-melnica/6.jpg')
+block append script
+	script(src='../../js/fancybox.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')

@@ -1,0 +1,19 @@
+extend ../_template
+
+block title
+	title Промоакция от Dior
+block prepend headLinks
+	link(href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', rel='stylesheet')
+block content
+	+breadcrumbPortfolio('Промоакция от Dior')
+	.content
+		.row.portfolio-preview
+			+portfolioItem('../../img/portfolio/main/promoakciya-dior/1.jpg', '../../img/portfolio/mini/promoakciya-dior/1.jpg')
+			+portfolioItem('../../img/portfolio/main/promoakciya-dior/2.jpg', '../../img/portfolio/mini/promoakciya-dior/2.jpg')
+			+portfolioItem('../../img/portfolio/main/promoakciya-dior/3.jpg', '../../img/portfolio/mini/promoakciya-dior/3.jpg')
+			+portfolioItem('../../img/portfolio/main/promoakciya-dior/4.jpg', '../../img/portfolio/mini/promoakciya-dior/4.jpg')
+			+portfolioItem('../../img/portfolio/main/promoakciya-dior/5.jpg', '../../img/portfolio/mini/promoakciya-dior/5.jpg')
+			+portfolioItem('../../img/portfolio/main/promoakciya-dior/6.jpg', '../../img/portfolio/mini/promoakciya-dior/6.jpg')
+block append script
+	script(src='../../js/fancybox.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')

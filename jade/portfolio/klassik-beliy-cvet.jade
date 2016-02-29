@@ -1,0 +1,22 @@
+extend ../_template
+
+block title
+	title В классическом белом цвете
+block prepend headLinks
+	link(href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', rel='stylesheet')
+block content
+	+breadcrumbPortfolio('В классическом белом цвете')
+	.content
+		.row.portfolio-preview
+			+portfolioItem('../../img/portfolio/main/klassik-beliy-cvet/1.jpg', '../../img/portfolio/mini/klassik-beliy-cvet/1.jpg')
+			+portfolioItem('../../img/portfolio/main/klassik-beliy-cvet/2.jpg', '../../img/portfolio/mini/klassik-beliy-cvet/2.jpg')
+			+portfolioItem('../../img/portfolio/main/klassik-beliy-cvet/3.jpg', '../../img/portfolio/mini/klassik-beliy-cvet/3.jpg')
+			+portfolioItem('../../img/portfolio/main/klassik-beliy-cvet/4.jpg', '../../img/portfolio/mini/klassik-beliy-cvet/4.jpg')
+			+portfolioItem('../../img/portfolio/main/klassik-beliy-cvet/5.jpg', '../../img/portfolio/mini/klassik-beliy-cvet/5.jpg')
+			+portfolioItem('../../img/portfolio/main/klassik-beliy-cvet/6.jpg', '../../img/portfolio/mini/klassik-beliy-cvet/6.jpg')
+			+portfolioItem('../../img/portfolio/main/klassik-beliy-cvet/7.jpg', '../../img/portfolio/mini/klassik-beliy-cvet/7.jpg')
+			+portfolioItem('../../img/portfolio/main/klassik-beliy-cvet/8.jpg', '../../img/portfolio/mini/klassik-beliy-cvet/8.jpg')
+			+portfolioItem('../../img/portfolio/main/klassik-beliy-cvet/9.jpg', '../../img/portfolio/mini/klassik-beliy-cvet/9.jpg')
+block append script
+	script(src='../../js/fancybox.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')

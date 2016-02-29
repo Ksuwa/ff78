@@ -1,0 +1,26 @@
+extend ../_template
+
+block title
+	title В морском стиле
+block prepend headLinks
+	link(href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', rel='stylesheet')
+block content
+	+breadcrumbPortfolio('В морском стиле')
+	.content
+		.row.portfolio-preview
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/1.jpg', '../../img/portfolio/mini/morskoy-stil/1.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/2.jpg', '../../img/portfolio/mini/morskoy-stil/2.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/3.jpg', '../../img/portfolio/mini/morskoy-stil/3.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/4.jpg', '../../img/portfolio/mini/morskoy-stil/4.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/5.jpg', '../../img/portfolio/mini/morskoy-stil/5.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/6.jpg', '../../img/portfolio/mini/morskoy-stil/6.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/7.jpg', '../../img/portfolio/mini/morskoy-stil/7.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/8.jpg', '../../img/portfolio/mini/morskoy-stil/8.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/9.jpg', '../../img/portfolio/mini/morskoy-stil/9.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/10.jpg', '../../img/portfolio/mini/morskoy-stil/10.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/11.jpg', '../../img/portfolio/mini/morskoy-stil/11.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/12.jpg', '../../img/portfolio/mini/morskoy-stil/12.jpg')
+			+portfolioItem('../../img/portfolio/main/morskoy-stil/13.jpg', '../../img/portfolio/mini/morskoy-stil/13.jpg')
+block append script
+	script(src='../../js/fancybox.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')

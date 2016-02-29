@@ -1,0 +1,20 @@
+extend ../_template
+
+block title
+	title Классическая свадьба Натальи и Романа
+block prepend headLinks
+	link(href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', rel='stylesheet')
+block content
+	+breadcrumbPortfolio('Классическая свадьба Натальи и Романа')
+	.content
+		.row.portfolio-preview
+			+portfolioItem('../../img/portfolio/main/nataliya-roman/1.jpg', '../../img/portfolio/mini/nataliya-roman/1.jpg')
+			+portfolioItem('../../img/portfolio/main/nataliya-roman/2.jpg', '../../img/portfolio/mini/nataliya-roman/2.jpg')
+			+portfolioItem('../../img/portfolio/main/nataliya-roman/3.jpg', '../../img/portfolio/mini/nataliya-roman/3.jpg')
+			+portfolioItem('../../img/portfolio/main/nataliya-roman/4.jpg', '../../img/portfolio/mini/nataliya-roman/4.jpg')
+			+portfolioItem('../../img/portfolio/main/nataliya-roman/5.jpg', '../../img/portfolio/mini/nataliya-roman/5.jpg')
+			+portfolioItem('../../img/portfolio/main/nataliya-roman/6.jpg', '../../img/portfolio/mini/nataliya-roman/6.jpg')
+			+portfolioItem('../../img/portfolio/main/nataliya-roman/7.jpg', '../../img/portfolio/mini/nataliya-roman/7.jpg')
+block append script
+	script(src='../../js/fancybox.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')

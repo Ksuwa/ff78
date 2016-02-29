@@ -1,0 +1,26 @@
+extend ../_template
+
+block title
+	title В персиковом цвете
+block prepend headLinks
+	link(href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', rel='stylesheet')
+block content
+	+breadcrumbPortfolio('В персиковом цвете')
+	.content
+		.row.portfolio-preview
+			+portfolioItem('../../img/portfolio/main/persikoviy/1.jpg', '../../img/portfolio/mini/persikoviy/1.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/2.jpg', '../../img/portfolio/mini/persikoviy/2.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/3.jpg', '../../img/portfolio/mini/persikoviy/3.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/4.jpg', '../../img/portfolio/mini/persikoviy/4.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/5.jpg', '../../img/portfolio/mini/persikoviy/5.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/6.jpg', '../../img/portfolio/mini/persikoviy/6.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/7.jpg', '../../img/portfolio/mini/persikoviy/7.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/8.jpg', '../../img/portfolio/mini/persikoviy/8.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/9.jpg', '../../img/portfolio/mini/persikoviy/9.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/10.jpg', '../../img/portfolio/mini/persikoviy/10.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/11.jpg', '../../img/portfolio/mini/persikoviy/11.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/12.jpg', '../../img/portfolio/mini/persikoviy/12.jpg')
+			+portfolioItem('../../img/portfolio/main/persikoviy/13.jpg', '../../img/portfolio/mini/persikoviy/13.jpg')
+block append script
+	script(src='../../js/fancybox.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')

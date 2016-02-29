@@ -1,0 +1,27 @@
+mixin breadcrumb(text)
+	ol.breadcrumb.custom-breadcrumb
+		li
+			a(href='index.html') Главная
+		li=text
+	h1.h1-port=text
+
+mixin breadcrumbPortfolio(text2)
+	ol.breadcrumb.custom-breadcrumb
+		li
+			a(href='../index.html') Главная
+		li
+			a(href='../portfolio.html') Портфолио
+		li=text2
+	h1.h1-port=text2
+
+mixin portfolioPage(href, scr, name)
+	.col-md-4.col-sm-6.portfolio-item
+		a(href=href)
+			img.img-responsive.img-portfolio(src=scr)
+		h2
+			a.h2-link(href=href)=name
+
+mixin portfolioItem(href, scr)
+	.col-md-4.col-sm-6.portfolio-item
+		a.fancybox(rel='gallery1', href=href)
+			img.img-responsive.img-portfolio(src=scr)
