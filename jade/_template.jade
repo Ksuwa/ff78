@@ -1,4 +1,9 @@
 include _mixins
+
+block vars
+	- var number1 = "+78129211055";
+	- var number2 = "+79117321053";
+
 doctype html
 html
 	head
@@ -27,9 +32,9 @@ html
 					.col-md-3.col-sm-9.contacts
 						ul.list-unstyled.contacts-phone
 							li
-								a.phone.phone-header(href='tel:+78129211055') +7 (812) 921-10-55
+								a.phone.phone-header(href='tel:'+number1) +7 (812) 921-10-55
 							li
-								a.phone.phone-header(href='tel:+79117321053') +7 (911) 732-10-53
+								a.phone.phone-header(href='tel:'+number2) +7 (911) 732-10-53
 						.button-social
 							a.callback(href='#')
 								i.fa.fa-mobile
@@ -48,7 +53,7 @@ html
 						a(href='/index.html') Главная
 					li#dropdown-services.dropdown
 						a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
-							| Услуги
+							| Услуги 
 							span.caret.hidden-xs
 						ul#submenu-services.dropdown-menu.hidden-xs.dropdown-submenu
 							li
@@ -87,9 +92,9 @@ html
 					.col-md-4.col-sm-4
 						ul.list-unstyled.footer-phone
 							li
-								a.phone.phone-footer(href='tel:+78129211055') +7 (812) 921-10-55
+								a.phone.phone-footer(href='tel:#{numder1}') #{numder1}
 							li
-								a.phone.phone-footer(href='tel:+79117321053') +7 (911) 732-10-53
+								a.phone.phone-footer(href='tel:#{numder2}') #{numder2}
 					.col-md-3.col-sm-4
 						ul.contacts-social-icon.list-unstyled.social-icon-footer
 							li
