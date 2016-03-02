@@ -1,0 +1,24 @@
+{
+  "name": "ff78-decor.ru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp-install": "^0.6.0",
+    "gulp-image-resize": "^0.7.1",
+    "gulp-watermark": "^0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ksuwa/ff78.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ksuwa/ff78/issues"
+  },
+  "homepage": "https://github.com/Ksuwa/ff78#readme"
+}

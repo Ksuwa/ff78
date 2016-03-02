@@ -1,8 +1,10 @@
 include _mixins
 
 block vars
-	- var phoneNumber01 = "+78129211055";
-	- var phoneNumber02 = "+79117321053";
+	- var phoneNumber01 = "+7 (812) 921-10-55";
+	- var phoneNumber02 = "+7 (911) 732-10-53";
+	- var phoneLink01 = "+78129211055";
+	- var phoneLink02 = "+79117321053";
 
 doctype html
 html
@@ -32,9 +34,9 @@ html
 					.col-md-3.col-sm-9.contacts
 						ul.list-unstyled.contacts-phone
 							li
-								a.phone.phone-header(href='tel:'+phoneNumber01) +7 (812) 921-10-55
+								a.phone.phone-header(href='tel:'+phoneLink01) #{phoneNumber01}
 							li
-								a.phone.phone-header(href='tel:'+phoneNumber02) +7 (911) 732-10-53
+								a.phone.phone-header(href='tel:'+phoneLink02) #{phoneNumber02}
 						.button-social
 							a.callback(href='#')
 								i.fa.fa-mobile
@@ -92,9 +94,9 @@ html
 					.col-md-4.col-sm-4
 						ul.list-unstyled.footer-phone
 							li
-								a.phone.phone-footer(href='tel:'+phoneNumber01) +7 (812) 921-10-55
+								a.phone.phone-footer(href='tel:'+phoneLink01) #{phoneNumber01}
 							li
-								a.phone.phone-footer(href='tel:'+phoneNumber02) +7 (911) 732-10-53
+								a.phone.phone-footer(href='tel:'+phoneLink02) #{phoneNumber02}
 					.col-md-3.col-sm-4
 						ul.contacts-social-icon.list-unstyled.social-icon-footer
 							li

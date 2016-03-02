@@ -17,6 +17,7 @@ $RECYCLE.BIN/
 *.map
 img/portfolio/main
 img/portfolio/mini
+node_modules
 
 # Windows shortcuts
 *.lnk
