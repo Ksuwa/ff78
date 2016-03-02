@@ -59,16 +59,11 @@ header .contacts {
 }
 
 .social-icon {
-	background-image: url(../img/spritesheet.png);
-	background-repeat: no-repeat;
+	background: url(../img/spritesheet.png) no-repeat;
 	display: block;
 	height: 25px;
 	margin-bottom: 3px;
 	width: 25px;
-}
-
-.icon-vk {
-	background-position: 0 0;
 }
 
 .icon-instagram {
@@ -89,7 +84,7 @@ header .contacts {
 	padding: 0 10px;
 	text-transform: uppercase;
 	text-decoration: none;
-	text-shadow: 0 1px 0px #3d768a;
+	text-shadow: 0 1px 0 #3d768a;
 	vertical-align: top;
 }
 
@@ -289,8 +284,6 @@ ul.dropdown-submenu li a {
 .portfolio-mini-photo {
 	max-height: 180px;
 }
-
-.img-portfolio {}
 /*/PORTFOLIO*/
 
 /*PRICE*/
@@ -327,10 +320,12 @@ ul.dropdown-submenu li a {
 		height: 90px;
 		margin: 20px auto;
 	}
+
 	.caption-top {
 		font-size: 22px;
 		margin: 10px 0 0;
 	}
+
 	.phone-header {
 		font-size: 22px;
 	}
@@ -338,13 +333,16 @@ ul.dropdown-submenu li a {
 	h1 {
 		font-size: 25px;
 	}
+
 	.foto-preview, .img-portfolio {
 		margin: 0 auto;
 	}
+
 	.content .photo-down, .photo-down-right {
 		float: none;
 		margin: 20px auto;
 	}
+
 	.portfolio-item {
 		margin: 0 auto 20px;
 	}
@@ -352,6 +350,7 @@ ul.dropdown-submenu li a {
 	header.header .contacts {
 		padding: 10px 0;
 	}
+
 	.contacts-phone {
 		clear: both;
 	}
@@ -359,15 +358,18 @@ ul.dropdown-submenu li a {
 	h2 {
 		text-align: center;
 	}
+
 	.button-social {
 		clear: both;
 		overflow: hidden;
 		margin: 0 auto;
 		max-width: 170px;
 	}
+
 	.callback {
 		margin: 0 auto 10px;
 	}
+
 	.contacts-social-icon  {
 		margin-left: 20px;
 	}
@@ -381,18 +383,22 @@ ul.dropdown-submenu li a {
 
 	header .contacts {
 		overflow: hidden;
-				padding: 20px 0 5px 80px;
+		padding: 20px 0 5px 80px;
 	}
+
 	.caption-top {
 		font-size: 27px;
 		margin: 10px 0 0;
 	}
+
 	.callback {
 		margin: 0 40px;
 	}
+
 	.contacts-social-icon li {
 		margin-right: 5px;
 	}
+
 	.portfolio-item {
 		margin: 0 auto 20px;
 	}

@@ -1,4 +1,4 @@
-	$(function () {
+$(function () {
 	$('.fancybox').fancybox({
 		type		: 'image', // to open placeholder images in fancybox;
 		openEffect	: 'elastic',
@@ -23,4 +23,4 @@
 			}
 		}
 	});
-	});
+});
