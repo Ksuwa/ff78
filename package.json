@@ -4,6 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "devDependencies": {
+	"gulp": "^3.9.1",
     "gulp-install": "^0.6.0",
     "gulp-image-resize": "^0.7.1",
     "gulp-watermark": "^0.0.1"
