@@ -25,7 +25,7 @@ html
 			.container
 				.row
 					.col-md-2.col-sm-3
-						a.logo-link(href='/index.html', title='На Главную')
+						a.logo-link(href='/', title='На Главную')
 							img.logo.img-responsive(src='/img/ff78-pink-logo.png', alt='логотип')
 					.col-md-7.col-sm-9
 						span.caption-top
@@ -38,9 +38,9 @@ html
 							li
 								a.phone.phone-header(href='tel:'+phoneLink02) #{phoneNumber02}
 						.button-social
-							a.callback(href='#')
-								i.fa.fa-mobile
-								span заказать звонок
+							//-a.callback(href='#')
+							//-i.fa.fa-mobile
+							//-span заказать звонок
 							ul.list-unstyled.contacts-social-icon
 								li
 									a.icon-vk.social-icon(href='http://instagram.com/flowers_fantasy78/', target='_blank', title='instagram')
@@ -52,7 +52,7 @@ html
 			.container.container-wrapper.menu
 				ul.nav.nav-justified.menu-justified
 					li
-						a(href='/index.html') Главная
+						a(href='/') Главная
 					li#dropdown-services.dropdown
 						a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
 							| Услуги 
