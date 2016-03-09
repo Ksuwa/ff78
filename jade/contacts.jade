@@ -1,0 +1,29 @@
+extend _template
+
+block title
+	title Контакты
+block content
+	+breadcrumb('Контакты')
+	.content
+		p.
+			Свяжитесь с нами, чтобы узнать больше о наших услугах.
+		.contacts-page
+			p САНКТ-ПЕТЕРБУРГ
+			p
+				span.color Телефон: 
+				| +7 (911) 921-10-55 (Ульяна)
+			p
+				span.opacity Телефон: 
+				| +7 (911) 732-10-53 (Ирина)
+			p
+				span.color Электронная почта: 
+				| ff78.spb@yandex.ru
+			p
+				a.contacts-page-link(href='http://vk.com/flowers_78', target='_blank', title='vkontakte')
+					i.fa.fa-vk.icon-circle
+					|   Смотрите нас на vkontakte
+			p
+				a.contacts-page-link(href='http://instagram.com/flowers_fantasy78/', target='_blank', title='instagram')
+					i.fa.fa-instagram.icon-circle.lr-margin-5
+					|   Смотрите нас на istagram
+

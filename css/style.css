@@ -3,7 +3,7 @@ body {
 }
 
 .container-wrapper {
-	background-color: rgba(112, 112, 112, 0.1);
+	background-color: rgba(162, 141, 162, 0.1);
 	margin: 0 auto;
 	max-width: 950px;
 }
@@ -240,10 +240,94 @@ ul.dropdown-submenu li a {
 }
 /*/content*/
 
+/*contacts*/
+.icon-circle {
+	background: #F1D3F7;
+	border-radius: 100%;
+	font-size: 18px;
+	height: 36px;
+	margin: 0 5px 0;
+	padding-top: 10px;
+	text-align: center;
+	width: 36px;
+	vertical-align: middle;
+}
+
+span.color {
+	color: #BA55B3;
+}
+
+span.opacity{
+	opacity: 0;
+}
+
+.contacts-page-link, .contacts-page-link:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.contacts-page-link:hover {
+	text-decoration: none;
+	color: #BA55B3;
+}
+
+.contacts-page {
+	border-bottom: 1px solid #BA55B3;
+	border-top:1px solid #BA55B3;
+	padding: 25px 30px;
+	margin: 25px 0 295px;
+}
+/*contacts*/
+
+/*portfolio*/
+.portfolio-preview {
+	padding: 0 0 10px;
+}
+
+.img-portfolio {
+	max-height: 175px;
+}
+
+.portfolio-item {
+	padding-bottom: 30px;
+}
+
+.custom-breadcrumb {
+	background: none;
+	margin: 10px 0 0 20px;
+	font-size: 14px;
+}
+
+.portfolio-mini-photo {
+	max-height: 180px;
+}
+/*/portfolio*/
+
+/*price*/
+.h2-price {
+	font-weight: 600;
+	text-align: center;
+}
+
+.list-price {
+	border-bottom: 1px solid #ab53b0;
+	text-align: left;
+	padding: 15px 0;
+}
+
+.list-price li{
+	padding-bottom: 10px;
+}
+
+.list-price i {
+	color: rgba(171, 83, 176, 0.7);
+}
+/*price*/
+
 /*footer*/
 .footer-block {
-	background-color: rgba(112, 112, 112, 0.2);
-	border-top: 1px solid #9e515d;
+	background-color: rgba(137, 131, 138, 0.2);
+	border-top: 1px solid #BA55B3;
 	min-height: 50px;
 	text-align: center;
 	padding: 10px 20px 10px;
@@ -267,56 +351,13 @@ ul.dropdown-submenu li a {
 }
 /*/footer*/
 
-/*PORTFOLIO*/
-.portfolio-preview {
-	padding: 0 0 10px;
-}
-
-.img-portfolio {
-	max-height: 175px;
-}
-
-.portfolio-item {
-	padding-bottom: 30px;
-}
-
-.custom-breadcrumb {
-	background: none;
-	margin: 10px 0 0 20px;
-	font-size: 14px;
-}
-
-.portfolio-mini-photo {
-	max-height: 180px;
-}
-/*/PORTFOLIO*/
-
-/*PRICE*/
-.h2-price {
-	font-weight: 600;
-	text-align: center;
-}
-
-.list-price {
-	border-bottom: 1px solid #ab53b0;
-	text-align: left;
-	padding: 15px 0;
-}
-
-.list-price li{
-	padding-bottom: 10px;
-}
-
-.list-price i {
-	color: rgba(171, 83, 176, 0.7);
-}
-/*PRICE*/
 
 
 /*@media*/
 @media screen and (max-width: 767px) {
 
 	.contacts-phone {
+		clear: both;
 		margin: 10px 0;
 		text-align: center;
 	}
@@ -339,7 +380,7 @@ ul.dropdown-submenu li a {
 		font-size: 25px;
 	}
 
-	.foto-preview, .img-portfolio {
+	.foto-preview, .img-portfolio, .contacts-social-icon {
 		margin: 0 auto;
 	}
 
@@ -354,10 +395,6 @@ ul.dropdown-submenu li a {
 
 	header.header .contacts {
 		padding: 10px 0;
-	}
-
-	.contacts-phone {
-		clear: both;
 	}
 
 	h2 {
@@ -375,8 +412,9 @@ ul.dropdown-submenu li a {
 		margin: 0 auto 10px;
 	}
 
-	.contacts-social-icon  {
-		margin-left: 20px;
+	.contacts-page {
+		padding: 15px 0;
+		margin: 10px 0;
 	}
 }
 
